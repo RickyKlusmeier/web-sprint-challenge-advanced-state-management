@@ -25,7 +25,7 @@ const AddForm = (props) => {
         } else {
             props.addSmurf(addSmurf)}
         }
-    }
+    
 
     
 
