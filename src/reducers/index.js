@@ -39,7 +39,7 @@ export const reducer = (state=initialState, action) => {
             });
    
     }
-
+}
 
 
 //Task List:
