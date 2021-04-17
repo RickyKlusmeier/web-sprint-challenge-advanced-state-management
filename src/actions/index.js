@@ -39,3 +39,10 @@ export const addSmurf = smurf => {
         })
     }
 }
+
+export const errorMessage = (message) => { 
+    return {
+        type: errorMessage,
+        payload: message,
+    }
+}

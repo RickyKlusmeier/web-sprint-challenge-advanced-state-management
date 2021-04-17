@@ -7,9 +7,9 @@ import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { fetchSmurfs } from './actions'
-const App = (props) =>  {
+const App = () =>  {
   useEffect(() => {
-    props.fetchSmurfs()
+    fetchSmurfs()
   }, [])
 
     return (
